@@ -1,0 +1,26 @@
+{
+  "name": "chatapp-ws",
+  "version": "1.0.0",
+  "description": "A simple chat app using WS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshishNitro/ChatApp-WS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AshishNitro/ChatApp-WS/issues"
+  },
+  "homepage": "https://github.com/AshishNitro/ChatApp-WS#readme",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3",
+    "ws": "^8.18.2"
+  }
+}
